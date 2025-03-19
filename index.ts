@@ -75,6 +75,9 @@ app.post('/register', async (req: Request, res: Response) => {
  
   res.status(201).json({ message: 'User registered successfully', username });
 });
+app.get('/', async (req: Request, res: Response) => {
+  res.status(200).json({ message: 'API is working!' });
+});
  
 // ✅ Login endpoint
 app.post('/login', async (req: Request, res: Response) => {

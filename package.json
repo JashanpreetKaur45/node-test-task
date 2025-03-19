@@ -1,11 +1,11 @@
 {
     "name": "node-starter",
     "version": "0.0.0",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "ts-node index.ts",
-      "build": "tsc"
-    },
+   "scripts": {
+  "build": "tsc",  
+  "start": "node dist/index.ts" 
+}
+    ,
     "dependencies": {
       "bcryptjs": "^2.4.3",
       "cors": "^2.8.5",

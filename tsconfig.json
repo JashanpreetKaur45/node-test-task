@@ -1,11 +1,10 @@
 {
-    "compilerOptions": {
-      "outDir": "dist",   // Ensures compiled files go to dist/
-      "module": "CommonJS",
-      "target": "ES6",
-      "strict": true,
-      "rootDir": "./",
-      "esModuleInterop": true
-    }
+  "compilerOptions": {
+    "outDir": "dist",   
+    "module": "CommonJS",
+    "target": "ES6",
+    "strict": true,
+    "rootDir": "./",
+    "esModuleInterop": true
   }
-  
+}
